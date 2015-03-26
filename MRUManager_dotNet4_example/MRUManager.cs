@@ -13,6 +13,8 @@ namespace MRUManager_dotNet4_example
     private ToolStripMenuItem ParentMenuItem;
     private Action<object, EventArgs> OnRecentFileClick;
     private Action<object, EventArgs> OnClearRecentFilesClick;
+    private byte maxNumberOfFiles;
+    private byte maxDisplayLength;
 
     private void _onClearRecentFiles_Click(object obj, EventArgs evt)
     {
