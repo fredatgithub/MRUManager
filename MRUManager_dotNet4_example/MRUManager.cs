@@ -6,6 +6,7 @@ namespace MRUManager_dotNet4_example
 {
   public class MRUManager
   {
+    // TODO implement 'maxNumberOfFiles' and 'maxDisplayLength'
     #region Private members
     private string NameOfProgram;
     private string SubKeyName;
